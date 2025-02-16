@@ -20,7 +20,7 @@ PhotoMovie は、iOS デバイスで写真を選択してスライドショー�
 - UserDefaults (メタデータ管理)
 
 ## プロジェクト構成
-
+---
 photoMovie/
 ├── photoMovie/
 │ ├── Assets.xcassets/
@@ -39,7 +39,7 @@ photoMovie/
 │ ├── project.xcworkspace/
 │ └── xcuserdata/
 └── readme.md
-
+---
 ## 必要な権限
 
 - フォトライブラリへのアクセス権限（写真選択用）
