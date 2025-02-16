@@ -23,13 +23,22 @@ PhotoMovie は、iOS デバイスで写真を選択してスライドショー�
 
 photoMovie/
 ├── photoMovie/
+│ ├── Assets.xcassets/
+│ │ ├── AccentColor.colorset/
+│ │ ├── AppIcon.appiconset/
+│ │ └── Contents.json
 │ ├── ContentView.swift # メインビュー
 │ ├── MovieMaker.swift # ムービー作成ロジック
 │ ├── MoviePreviewView.swift # ムービープレビュー
 │ ├── PhotoManager.swift # 写真管理
-│ ├── photoMovieApp.swift # アプリケーションエントリーポイント
-│ └── Assets.xcassets # アプリアセット
-└── Preview Content/ # プレビュー用アセット
+│ ├── Preview Content/
+│ │ └── Preview Assets.xcassets/
+│ └── photoMovieApp.swift # アプリケーションエントリーポイント
+├── photoMovie.xcodeproj/
+│ ├── project.pbxproj
+│ ├── project.xcworkspace/
+│ └── xcuserdata/
+└── readme.md
 
 ## 必要な権限
 
